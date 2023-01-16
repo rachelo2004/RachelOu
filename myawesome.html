@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Welcome to Rachel Ou's website - My Sports</title>
+
+<link href="css/jquery.bxslider.css" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="style.css" />  
+  <link href="css/font-awesome.min.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <link rel="stylesheet" type="text/css" href="css/waypoints.css">
+    <script type="text/javascript" src="js/jquery.waypoints.min.js"></script>
+    <script type="text/javascript" src="js/waypoints.js"></script>
+    <script type="text/javascript" src="js/menu.js"></script>
+    
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<style type="text/css">
+.carousel{
+    /*background: #2f4357;*/
+    margin: 20px 0;
+}
+.carousel .item{
+    min-height: 280px; /* Prevent carousel from being distorted if for some reason image doesn't load */
+}
+.carousel .item img{
+    margin: 0 auto; /* Align slide image horizontally center */
+}
+.control-buttons{
+  text-align: center;
+}
+.bs-example{
+  margin: 20px;
+}
+</style>
+</head>
+<body>
+
+ <header>
+    <div id="header-inner">
+      <a href="index.html" id ="logo"></a>
+      <nav>
+        <a href="#" id="menu-icon"></a>
+        <ul>
+          <li><a href="index.html" ><i class="fa fa-home" aria-hidden="true"></i>&nbsp;Home</a></li>
+          <li><a href="myart.html"><i class="fa fa-picture-o" aria-hidden="true"></i>&nbsp;Art</a></li>
+          <li><a href="mysports.html" ><i class="fa fa-trophy" aria-hidden="true"></i>&nbsp;Sports</a></li>
+          <li><a href="myawesome.html" class="current"><i class="fa fa-cloud" aria-hidden="true"></i>&nbsp;Other</a></li>
+          <li><a href="contact.html"><i class="fa fa-phone" aria-hidden="true"></i>&nbsp;Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+<!--- Start Slider -->
+    <script src="js/jquery.bxslider.min.js"></script><!--For Image Slider-->
+    <!--<div class="slide-wrap">
+      <section class="slider">
+        <ul class="slider1">
+          <li><img src="img/spring.png"></li>
+          <li><img src="img/summer.png"></li>
+          <li><img src="img/fall.png"></li>
+          <li><img src="img/winter.png"></li>
+        </ul>
+
+      </section>
+    </div>-->
+
+    <!--- ADD IMAGE SLIDER HERE -->
+
+    <script type="text/javascript">
+      $('.slider1').bxSlider({
+        mode: 'fade',
+        captions: false,
+        auto:true,
+        pager:false,
+        
+      });
+      $('.slider2').bxSlider({
+        pager:false,
+        captions: true,
+        maxSlides: 3,
+        minSlides: 1,
+        slideWidth: 230,
+        slideMargin: 10
+      });
+      $('.slider3').bxSlider({
+        mode: 'fade',
+        captions: false,
+        auto:true,
+        pager:false,
+        controls:false,
+      });
+    </script>
+    <br>
+    
+     <div class="slide-wrap" style="margin-top:110px;padding-left: 0%;justify-content: center;">
+		
+		Music - violion video:<br>
+		<a href="https://youtu.be/B3T3L56UYC8" target="_blank">Vivaldi &nbsp;&nbsp;&nbsp;&nbsp;</a><br>
+		<a href="https://youtu.be/451OgBQASZo" target="_blank">Mazurka</a><br><br>
+		Volunteer:<br>
+		<a href="https://www.artinmindinc.org" target="_blank">Art In Mind</a><br><br>
+		 Links that I visit Often:<br>
+		<a href="https://design.google/resources/" target="_blank">https://design.google</a><br>	
+		<a href="https://dribbble.com/" target="_blank">https://dribbble.com/</a><br>
+		<a href="http://adobe.com" target="_blank">http://adobe.com</a><br>
+		
+
+<br>
+		 Apps:</br>
+		Coming soon.....
+	</div>
+
+<!-- modal start -->
+ <div class="modal fade" id="family" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">My Family</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                </div>
+                <div class="modal-body">
+                    <img   style="height: 50%; width: 50%; display: block center;" src="img/family.JPG" data-holder-rendered="true" data-toggle="modal" data-target="#family">
+                </div>
+            </div>
+        </div>    
+  </div>
+<!-- modal end -->
+
+
+  <br>
+  <br>
+  <footer class="second">
+    <p>&copy:Rachelou.com, 2021.</p>
+  </footer>
+<!--Footer End  -->
+<!--End Waypoints Delayed Animation -->
+
+<br>
+</body>
+</html>                            

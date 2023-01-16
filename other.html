@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Welcome to Rachel Ou's website - Other</title>
+
+<link href="css/jquery.bxslider.css" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="style.css" />  
+  <link href="css/font-awesome.min.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <link rel="stylesheet" type="text/css" href="css/waypoints.css">
+    <script type="text/javascript" src="js/jquery.waypoints.min.js"></script>
+    <script type="text/javascript" src="js/waypoints.js"></script>
+    <script type="text/javascript" src="js/menu.js"></script>
+    
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+  // Initializes the carousel
+    $(".start-slide").click(function(){
+      $("#myCarousel").carousel('cycle');
+    });
+  // Stops the carousel
+    $(".pause-slide").click(function(){
+      $("#myCarousel").carousel('pause');
+    });
+  // Cycles to the previous item
+    $(".prev-slide").click(function(){
+      $("#myCarousel").carousel('prev');
+    });
+  // Cycles to the next item
+    $(".next-slide").click(function(){
+      $("#myCarousel").carousel('next');
+    });
+  // Cycles the carousel to a particular frame 
+    $(".slide-one").click(function(){
+      $("#myCarousel").carousel(0);
+    });
+    $(".slide-two").click(function(){
+      $("#myCarousel").carousel(1);
+    });
+    $(".slide-three").click(function(){
+      $("#myCarousel").carousel(2);
+    });
+});
+</script>
+<style type="text/css">
+.carousel{
+    /*background: #2f4357;*/
+    margin: 20px 0;
+}
+.carousel .item{
+    min-height: 280px; /* Prevent carousel from being distorted if for some reason image doesn't load */
+}
+.carousel .item img{
+    margin: 0 auto; /* Align slide image horizontally center */
+}
+.control-buttons{
+  text-align: center;
+}
+.bs-example{
+  margin: 20px;
+}
+</style>
+</head>
+<body>
+
+ <header>
+    <div id="header-inner">
+      <a href="index.html" id ="logo"></a>
+      <nav>
+        <a href="#" id="menu-icon"></a>
+        <ul>
+          <li><a href="index.html" ><i class="fa fa-home" aria-hidden="true"></i>&nbsp;Home</a></li>
+          <li><a href="art.html"><i class="fa fa-picture-o" aria-hidden="true"></i>&nbsp;Art</a></li>
+          <li><a href="sports.html" ><i class="fa fa-trophy" aria-hidden="true"></i>&nbsp;Sports</a></li>
+          <li><a href="other.html" class="current"><i class="fa fa-cloud" aria-hidden="true"></i>&nbsp;Other</a></li>
+          <li><a href="contact.html"><i class="fa fa-phone" aria-hidden="true"></i>&nbsp;Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+
+    <br>
+    
+     <div class="slide-wrap" style="font-size: large;margin-top:110px;padding-left: 0%;justify-content: center;font-family: 'Droid Sans', sans-serif;text-align: justify;text-transform: none;text-align: center;font-size: large;font-weight: 500;">
+		
+		Music - Violion video:<br>
+		<a href="https://youtu.be/451OgBQASZo" target="_blank">Mazurka</a><br>
+		<a href="https://youtu.be/B3T3L56UYC8" target="_blank">Vivaldi </a><br><br>
+		
+		Art In Mind:<br>
+		<a href="https://www.artinmindinc.org" target="_blank">Art In Mind</a><br><br>
+		
+		<!--Girls Who Code:<br>
+		<a href="#" >  
+			<button type="button" class="open-modal" data-holder-rendered="true" data-toggle="modal" data-target="#family">
+			Girls Who Code
+		  </button>
+		  </a> -->
+		 Research:<br>
+		 <a href="Research_Paper_RachelOU.docx.pdf" target="_blank" > Identification of Autism Spectrum Disorder Relevant Genes Using Gene Expression and Genetic Information</a>
+		
+<br><br>
+		 Apps:</br>
+		Coming soon.....
+	</div>
+
+<!-- modal start -->
+ <div class="modal fade" id="family" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">EverBright Club</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                </div>
+                <div class="modal-body">
+                    <div class="bs-example">
+    <div id="myCarousel" class="carousel slide" data-interval="3000" data-ride="carousel">
+        <!-- Wrapper for carousel items -->
+        <div class="carousel-inner">
+            <div class="active item">
+                <img src="img/art/GWC/gwc2.png" alt="Club" >
+            <div class="carousel-caption" >
+                
+                  <h4 style="background-color:#ccc">Our Club: everbright  </h4>
+                </div>
+            </div>
+            <div class="item">             
+                <img src="img/art/GWC/gwc4.png" alt="Me I Slide" >
+                <div class="carousel-caption">
+                 
+                  <h4 style="background-color:#ccc">Our Dashboard</h4>
+                </div>
+            </div>
+            <div class="item">
+                <img src="img/art/GWC/gwc5.png" alt="Me II Slide" >
+                <div class="carousel-caption">
+               
+                  <h4 style="background-color:#ccc">Our Meeting </h4>
+                </div>
+            </div>           
+            <div class="item">
+                <img src="img/art/GWC/gwc6.png" alt="My  Slide" >
+                <div class="carousel-caption">
+                  
+                  <h4 style="background-color:#ccc">Our Progress</h4>
+                </div>
+            </div>
+			<div class="item">
+                <img src="img/art/GWC/gwc3.png" alt="My  Slide" >
+                <div class="carousel-caption">
+                  
+                  <h4 style="background-color:#ccc">One of the projects</h4>
+                </div>
+            </div>
+			
+			
+			<div class="item">
+                <img src="img/art/GWC/gwc1.png" alt="My Team Slide" >
+                <div class="carousel-caption">
+                  
+                  <h4 style="background-color:#ccc">Message from GWC</h4>
+                </div>
+            </div>
+			
+        </div>
+    </div>
+
+<br>
+<br>
+<br>
+    <!-- Carousel controls buttons -->
+    <div class="control-buttons">
+        <input type="button" class="btn btn-info start-slide" value="Start">
+        <input type="button" class="btn btn-info pause-slide" value="Pause">
+        <input type="button" class="btn btn-info prev-slide" value="Previous">
+        <input type="button" class="btn btn-info next-slide" value="Next">
+        <!--<input type="button" class="btn btn-info slide-one" value="Slide 1">
+        <input type="button" class="btn btn-info slide-two" value="Slide 2">            
+        <input type="button" class="btn btn-info slide-three" value="Slide 3">-->
+    </div>
+</div>
+                </div>
+            </div>
+        </div>    
+  </div>
+<!-- modal end -->
+
+
+  <br>
+  <br>
+  <footer class="second">
+    <p>&copy:Rachelou.com, 2021.</p>
+  </footer>
+<!--Footer End  -->
+<!--End Waypoints Delayed Animation -->
+
+<br>
+</body>
+</html>                            

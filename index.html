@@ -1,0 +1,215 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Welcome to Rachel Ou's website - Home</title>
+	<link href="css/jquery.bxslider.css" rel="stylesheet" />
+	<link rel="stylesheet" type="text/css" href="style.css" />	
+	<link href="css/font-awesome.min.css" rel="stylesheet"/>
+	<link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+  	<script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+  	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+  	<link rel="stylesheet" type="text/css" href="css/animate.css">
+  	<link rel="stylesheet" type="text/css" href="css/waypoints.css">
+  	<script type="text/javascript" src="js/jquery.waypoints.min.js"></script>
+  	<script type="text/javascript" src="js/waypoints.js"></script>
+  	
+  	<!--bootstrap start-->
+  	<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">-->
+</head>
+<body>
+	<header>		
+	<div id="header-inner">
+      <a href="index.html" id ="logo"></a>
+      <nav >
+        <a href="#" id="menu-icon"></a>
+        <ul class="active">
+          <li><a href="index.html" class="current"><i class="fa fa-home" aria-hidden="true"></i>&nbsp;Home</a></li>
+          <li><a href="art.html"><i class="fa fa-picture-o" aria-hidden="true"></i>&nbsp;Art</a></li>
+          <li><a href="sports.html" ><i class="fa fa-trophy" aria-hidden="true"></i>&nbsp;Sports</a></li>
+          <li><a href="other.html" ><i class="fa fa-cloud" aria-hidden="true"></i>&nbsp;Other</a></li>
+          <li><a href="contact.html"><i class="fa fa-phone" aria-hidden="true"></i>&nbsp;Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+	</header>
+	<div class="slide-wrap" style="margin-top:100px; font-size:x-large">
+	<p style="text-align:center"><br> Rachel Ou - a young artist, athlete, volunteer based at Bridgewater, NJ</p>
+	</div>
+	<br>
+	<div class="center">
+		<img src="img/art/me.png" ></img>
+	</div>
+<!--- Start Slider -->
+		<script src="js/jquery.bxslider.min.js"></script><!--For Image Slider-->
+		<!--<div class="slide-wrap">
+			<section class="slider">
+				<ul class="slider1">
+					<li><img src="img/spring.png"></li>
+					<li><img src="img/summer.png"></li>
+					<li><img src="img/fall.png"></li>
+					<li><img src="img/winter.png"></li>
+
+				</ul>
+			</section>
+		</div>-->
+
+		<!--- ADD IMAGE SLIDER HERE -->
+
+		<script type="text/javascript">
+			$('.slider1').bxSlider({
+				mode: 'fade',
+				captions: false,
+				auto:true,
+				pager:false,
+				
+			});
+			$('.slider2').bxSlider({
+				pager:false,
+				captions: true,
+				maxSlides: 3,
+				minSlides: 1,
+				slideWidth: 230,
+				slideMargin: 10
+			});
+			$('.slider3').bxSlider({
+				mode: 'fade',
+				captions: false,
+				auto:true,
+				pager:false,
+				controls:false,
+			});
+		</script>
+<!--- End Slider -->
+<!--animation start-->
+<!--
+<div>
+  <div  style="font-size:15pt">
+    Time Spent in nature is time spent realizing that you don't know it all and that you never will
+  </div>
+</div>
+<br>
+<div class="panel panel-default">
+  <div class="panel-body" style="font-size:15pt">
+    Follow your dreams, reach for the stars..., but never forget where you came from
+  </div>
+</div>
+<br>
+<div class="panel panel-default">
+  <div class="panel-body" style="font-size:15pt">
+    I promise to be your strength whenever you fall weak, I promise to be your voice when you can't find the words
+  </div>
+</div>
+-->
+
+
+<div id="inner-wrapper"> 
+<!--Start waypoints Delayed Animation -->
+<section class="staggered-animation-container">
+
+	<section class="os-animation" data-os-animation ="fadeInLeftBig" data-os-animation-delay=".3s">
+		<section class="one-third">
+			<!--<p>Time Spent in nature is time spent realizing that you don't know it all and that you never will</p>-->
+			<p> <b>The Attic in March</b><br>-- by Rachel Ou<br><br>
+			Only one window in the attic,<br>The March sun shines into my cabin,<br>
+			Trying to heal my wounds,<br>
+			Silence roams outside the window,<br>
+			I stand in front of it,<br>
+			Counting the new buds on the old branches.<br>
+			Day and day<br>
+			I am a prisoner bird,<br> 
+			I forgot how high the sky is.<br></p>
+		</section>
+	</section> <!--end Animation -->
+
+	<section class="os-animation" data-os-animation ="fadeInDownBig" data-os-animation-delay=".3s">
+		<section class="one-third">			
+			<!--<p>Follow your dreams, reach for the stars..., but never forget where you came from</p>-->
+			<p> 
+			The sun shines outside, <br> 
+			But life after life is dying<br> 
+			Life is not a number,<br> 
+			The chill makes me sleepless<br> 
+			Please dive into my dream<br> 
+			Turn me into the wind,<br> 
+			Take me out of this cage,<br> 
+			I want to fly away<br><br>
+			I’ve been waiting for,<br>
+			Waiting for April Day,<br>
+			In a world where you can breathe freely,</p>
+		</section>
+	</section> <!--End Animation -->
+
+	<section class="os-animation" data-os-animation ="fadeInRightBig" data-os-animation-delay=".3s">
+		<section class="one-third">
+			<!--<p> I promise to be your strength whenever you fall weak, I promise to be your voice when you can't find the words</p>-->
+			<p>
+I want to hear the parula’s chirp,<br>
+Smell the fragrance of grass,<br>
+See the ripples of waters,<br>
+Watch trees and flowers bloom,<br>
+Looking forward to your dream in the floating water,<br>
+You are love, you are warmth.<br>
+Please take me with you,<br>
+Become the wind,<br>
+Whistle a sliver of hope into people’s ears,<br>
+At the end of every tunnel is light<br>
+	<img src="img/art/scholastic.PNG" style="padding-left: 150px;"></p>
+		</section>	
+</div>
+<!--animation end -->
+<!-- End Inner Wrapper-->
+<div class="clearfix"></div>
+<!--Footer Start  -->
+	<!--<footer>
+		<div id="footer-inner">
+			<section class="one-third" id="footer-third">
+				<h3>Contact</h3>
+				<p class="footercontact">animationprowave<br>
+					<b class="phone">555-879-0987</b></p>
+
+			</section>
+			<section class="one-third" id="footer-third">
+				<h3>Social</h3>
+				<ul class="social">
+					<li><a href="https://www.facebook.com/animationprowave" target="_blank"><i class="fa fa-facebook"></i></a></li>
+					<li><a href="https://plus.google.com/animationprowave" target="_blank"><i class="fa fa-google-plus"></i></a></li>
+					<li><a href="https://twitter.com/animationprowave" target="_blank"><i class="fa fa-twitter"></i></a></li>
+					<li><a href="https://www.youtube.com/animationprowave" target="_blank"><i class="fa fa-youtube"></i></a></li>
+				</ul>
+			</section>
+			<section class="one-third" id="footer-third-last">
+				<h3>Pages</h3>
+				<p class="footercontact">
+					<a href="index/html">home</a> -
+					<a href="index/html">My Arts</a> -
+					<a href="index/html">My Sports</a> -
+					<a href="index/html">My Awesome</a> -
+					<a href="index/html">Contact</a> 
+				</p>
+			</section>	
+		</div>
+	</footer>-->
+	<footer class="second">
+		<p>&copy:Rachelou.com, 2021</p>
+	</footer>
+<!--Footer End  -->
+<!--End Waypoints Delayed Animation -->
+
+<br>
+</body>
+</html>
+<script>  
+$(document).ready(function() {  
+    $('#menu-icon').on('click', function(e) {
+      $('nav ul').toggleClass('active'); //you can list several class names 
+      e.preventDefault();
+    });
+    });
+</script>
